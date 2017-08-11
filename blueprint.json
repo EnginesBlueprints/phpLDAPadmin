@@ -16,7 +16,7 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-08-11T14:38:10+10:00"
+    "timestamp": "2017-08-11T15:57:39+10:00"
   },
   "software": {
     "base": {
@@ -24,7 +24,7 @@
       "framework": "apache_php",
       "deployment_type": "web",
       "http_protocol": "https_only",
-      "web_root_directory": "ldap",
+      "web_root_directory": "htdocs",
       "memory": {
         "required": 96,
         "recommended": 128
