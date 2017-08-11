@@ -16,7 +16,7 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-08-11T17:25:24+10:00"
+    "timestamp": "2017-08-11T17:52:30+10:00"
   },
   "software": {
     "base": {
@@ -24,7 +24,7 @@
       "framework": "apache_php",
       "deployment_type": "web",
       "http_protocol": "https_only",
-      "web_root_directory": "phpldapadmin",
+      "web_root_directory": "ldapadmin",
       "memory": {
         "required": 96,
         "recommended": 128
@@ -33,7 +33,7 @@
     "scripts": {
       "install": {
         "language": "sh",
-        "content": "#!/bin/bash\r\n\r\nln -s /usr/share/phpldapadmin /home/app/\r\n"
+        "content": "#!/bin/bash\r\n\r\nln -s /usr/share/phpldapadmin /home/app/ldapadmin\r\ncp config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
       }
     },
     "system_packages": [
