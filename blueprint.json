@@ -16,7 +16,7 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-08-11T18:44:08+10:00"
+    "timestamp": "2017-08-11T18:49:28+10:00"
   },
   "software": {
     "base": {
@@ -31,6 +31,10 @@
       }
     },
     "scripts": {
+      "start": {
+        "language": "sh",
+        "content": "#!/bin/bash\r\n\r\ncp /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
+      },
       "install": {
         "language": "sh",
         "content": "#!/bin/bash\r\n\r\nln -s /usr/share/phpldapadmin /home/app/ldapadmin\r\ncp /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
