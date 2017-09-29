@@ -16,7 +16,7 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-09-29T16:03:51+10:00"
+    "timestamp": "2017-09-29T16:29:36+10:00"
   },
   "software": {
     "base": {
@@ -37,7 +37,7 @@
       },
       "install": {
         "language": "sh",
-        "content": "#!/bin/bash\r\n\r\nln -s /usr/share/phpldapadmin /home/app/phpldapadmin\r\nln -s /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
+        "content": "#!/bin/bash\r\nmkdir -p /home/app/config/\r\nln -s /usr/share/phpldapadmin /home/app/phpldapadmin\r\nln -s /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
       }
     },
     "system_packages": [
