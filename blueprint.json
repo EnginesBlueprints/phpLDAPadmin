@@ -16,7 +16,7 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-09-21T20:39:08+10:00"
+    "timestamp": "2017-09-29T15:47:30+10:00"
   },
   "software": {
     "base": {
@@ -37,7 +37,7 @@
       },
       "install": {
         "language": "sh",
-        "content": "#!/bin/bash\r\n\r\nln -s /usr/share/phpldapadmin /home/app/ldapadmin\r\ncp /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
+        "content": "#!/bin/bash\r\nmkdir -p /home/app/config/\r\nln -s /usr/share/phpldapadmin /home/app/ldapadmin\r\nln -s /home/app/ldapadmin/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
       }
     },
     "system_packages": [
@@ -75,7 +75,7 @@
     ],
     "persistent_directories": [
       {
-        "path": "app/config",
+        "path": "app/ldapadmin/config",
         "volume_name": "_Engines_Builder(engine_name)"
       }
     ]
