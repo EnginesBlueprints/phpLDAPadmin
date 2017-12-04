@@ -16,7 +16,12 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-12-04T17:01:47+11:00"
+    "software": {
+      "display": {
+        "title": "ldapadmin"
+      }
+    },
+    "timestamp": "2017-12-04T17:07:05+11:00"
   },
   "software": {
     "base": {
