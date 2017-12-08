@@ -18,10 +18,11 @@
     },
     "software": {
       "display": {
-        "title": "ldapadmin"
+        "title": "ldapadmin",
+        "label": "ldapadmin"
       }
     },
-    "timestamp": "2017-12-04T17:07:05+11:00"
+    "timestamp": "2017-12-08T13:13:51+11:00"
   },
   "software": {
     "base": {
