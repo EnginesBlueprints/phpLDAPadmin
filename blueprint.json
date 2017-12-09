@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2017-12-08T13:13:51+11:00"
+    "timestamp": "2017-12-09T11:36:47+11:00"
   },
   "software": {
     "base": {
@@ -39,7 +39,7 @@
     "scripts": {
       "start": {
         "language": "sh",
-        "content": "#!/bin/bash\r\n\r\n#cp /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
+        "content": "#!/bin/bash\r\n\r\n\r\n#cp /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
       },
       "install": {
         "language": "sh",
