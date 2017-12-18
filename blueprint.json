@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2017-12-19T10:52:29+11:00"
+    "timestamp": "2017-12-19T10:57:30+11:00"
   },
   "software": {
     "base": {
@@ -41,7 +41,7 @@
       },
       "install": {
         "language": "sh",
-        "content": "#!/bin/bash\r\ncd /home/app\r\n for f in \"doc/ hooks/ htdocs/ index.php lang/ lib/ locale/ .pc/ queries/ templates/ tools/ VERSION\"\r\n  do\r\n    cp -r /usr/share/phpldapadmin/$f .\r\n  done"
+        "content": "#!/bin/bash\r\ncd /home/app\r\n for f in doc/ hooks/ htdocs/ index.php lang/ lib/ locale/ .pc/ queries/ templates/ tools/ VERSION\r\n  do\r\n    cp -r /usr/share/phpldapadmin/$f .\r\n  done"
       }
     },
     "system_packages": [
