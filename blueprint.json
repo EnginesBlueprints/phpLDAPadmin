@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2017-12-09T11:36:47+11:00"
+    "timestamp": "2017-12-19T09:50:35+11:00"
   },
   "software": {
     "base": {
@@ -30,7 +30,7 @@
       "framework": "apache_php",
       "deployment_type": "web",
       "http_protocol": "https_only",
-      "web_root_directory": "ldapadmin",
+      "web_root_directory": "phpldapadmin",
       "memory": {
         "required": 96,
         "recommended": 128
@@ -38,17 +38,19 @@
     },
     "scripts": {
       "start": {
-        "language": "sh",
-        "content": "#!/bin/bash\r\n\r\n\r\n#cp /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
+        "language": "sh"
       },
       "install": {
-        "language": "sh",
-        "content": "#!/bin/bash\r\nmkdir -p /home/app/config/\r\nln -s /usr/share/phpldapadmin /home/app/phpldapadmin\r\nln -s /home/app/config/config.php /usr/share/phpldapadmin/config/config.php\r\n"
+        "language": "sh"
       }
     },
-    "system_packages": [
+    "installed_packages": [
       {
-        "package": "phpldapadmin"
+        "name": "phpldapadmin-1.2.3.tgz",
+        "source_url": "https://downloads.sourceforge.net/project/phpldapadmin/phpldapadmin-php5/1.2.3/phpldapadmin-1.2.3.tgz?r=https%3A%2F%2Fsourceforge.net%2Fsettings%2Fmirror_choices%3Fprojectname%3Dphpldapadmin%26filename%3Dphpldapadmin-php5%2F1.2.3%2Fphpldapadmin-1.2.3.tgz",
+        "destination": "/home/app",
+        "extraction_command": "tar -xzpf",
+        "path_to_extracted": "phpldapadmin"
       }
     ],
     "required_modules": [
