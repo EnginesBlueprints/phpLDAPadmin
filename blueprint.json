@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2017-12-19T10:12:39+11:00"
+    "timestamp": "2017-12-19T10:20:37+11:00"
   },
   "software": {
     "base": {
@@ -43,6 +43,11 @@
         "language": "sh"
       }
     },
+    "system_packages": [
+      {
+        "package": "phpldapadmin"
+      }
+    ],
     "installed_packages": [
       {
         "name": "phpldapadmin-1.2.3.tgz",
