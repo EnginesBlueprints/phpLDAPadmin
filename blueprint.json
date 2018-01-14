@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2017-12-19T10:57:30+11:00"
+    "timestamp": "2018-01-15T10:11:29+11:00"
   },
   "software": {
     "base": {
@@ -88,7 +88,7 @@
     ],
     "persistent_directories": [
       {
-        "path": "/app/config",
+        "path": "/app/htdocs/config",
         "volume_name": "_Engines_Builder(engine_name)"
       }
     ]
