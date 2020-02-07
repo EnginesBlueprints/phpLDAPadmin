@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2018-12-31T10:20:14+11:00"
+    "timestamp": "2020-02-07T19:15:03+11:00"
   },
   "software": {
     "base": {
@@ -68,20 +68,6 @@
         "name": "xml",
         "type": "php",
         "os_package": "php5.6-xml"
-      }
-    ],
-    "service_configurations": [
-      {
-        "publisher_namespace": "EnginesSystem",
-        "type_path": "filesystem/local/filesystem",
-        "variables": {
-          "service_name": "config",
-          "volume_src": "",
-          "engine_path": "/home/fs/config",
-          "permissions": "rw",
-          "user": "_Engines_Builder(data_uid)",
-          "group": "_Engines_Builder(data_gid)"
-        }
       }
     ],
     "template_files": [
