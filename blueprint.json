@@ -22,12 +22,12 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2020-06-27T12:51:28+10:00"
+    "timestamp": "2020-06-27T13:02:43+10:00"
   },
   "software": {
     "base": {
       "name": "ldapadmin",
-      "framework": "apache_php56",
+      "framework": "apache_php",
       "deployment_type": "web",
       "http_protocol": "https_only",
       "web_root_directory": "htdocs",
