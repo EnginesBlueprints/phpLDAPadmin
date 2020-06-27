@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2020-06-27T13:07:11+10:00"
+    "timestamp": "2020-06-27T15:13:42+10:00"
   },
   "software": {
     "base": {
@@ -46,11 +46,12 @@
     },
     "installed_packages": [
       {
-        "name": "phpldapadmin-1.2.3.tgz",
-        "source_url": "https://downloads.sourceforge.net/project/phpldapadmin/phpldapadmin-php5/1.2.3/phpldapadmin-1.2.3.tgz",
+        "name": "phpLDAPadmin",
+        "download_type": "http(s)",
+        "source_url": "https://github.com/leenooks/phpLDAPadmin",
         "destination": "/home/app",
         "extraction_command": "tar -xzpf",
-        "path_to_extracted": "phpldapadmin-1.2.3"
+        "path_to_extracted": "phpLDAPadmin"
       }
     ],
     "required_modules": [
