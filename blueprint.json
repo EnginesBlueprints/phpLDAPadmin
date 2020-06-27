@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2020-06-27T12:30:09+10:00"
+    "timestamp": "2020-06-27T12:37:05+10:00"
   },
   "software": {
     "base": {
@@ -41,8 +41,7 @@
         "language": "sh"
       },
       "install": {
-        "language": "sh",
-        "content": "#!/bin/bash\r\ncd /home/app\r\n for f in doc/ hooks/ htdocs/ index.php lang/ lib/ locale/ .pc/ queries/ templates/ tools/ VERSION\r\n  do\r\n    cp -r /usr/share/phpldapadmin/$f .\r\n  done"
+        "language": "sh"
       }
     },
     "system_packages": [
