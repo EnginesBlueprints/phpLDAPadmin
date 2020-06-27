@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2020-06-27T12:37:05+10:00"
+    "timestamp": "2020-06-27T12:51:28+10:00"
   },
   "software": {
     "base": {
@@ -30,7 +30,7 @@
       "framework": "apache_php56",
       "deployment_type": "web",
       "http_protocol": "https_only",
-      "web_root_directory": "phpldapadmin",
+      "web_root_directory": "htdocs",
       "memory": {
         "required": 96,
         "recommended": 128
