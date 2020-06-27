@@ -22,7 +22,7 @@
         "label": "ldapadmin"
       }
     },
-    "timestamp": "2020-06-27T13:02:43+10:00"
+    "timestamp": "2020-06-27T13:07:11+10:00"
   },
   "software": {
     "base": {
@@ -44,11 +44,6 @@
         "language": "sh"
       }
     },
-    "system_packages": [
-      {
-        "package": "php5.6-ldap"
-      }
-    ],
     "installed_packages": [
       {
         "name": "phpldapadmin-1.2.3.tgz",
@@ -62,12 +57,12 @@
       {
         "name": "ldap",
         "type": "php",
-        "os_package": "php5.6-ldap"
+        "os_package": "php-ldap"
       },
       {
         "name": "xml",
         "type": "php",
-        "os_package": "php5.6-xml"
+        "os_package": "php-xml"
       }
     ],
     "template_files": [
